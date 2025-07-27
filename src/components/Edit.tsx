@@ -1,11 +1,11 @@
 import React from 'react'
 
-const TodoList = () => {
+const Edit = () => {
   return (
     <div>
-      Todolist
+      
     </div>
   )
 }
 
-export default TodoList
+export default Edit
