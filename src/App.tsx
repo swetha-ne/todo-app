@@ -1,18 +1,11 @@
 import './App.css'
+import TodoList from './components/TodoList'
 
 function App() {
 
-  const handleInputChange = () => {
-
-  };
-  
-
   return (
-    <div className='app'> 
-      <h1>To-Do List</h1>
-      <div className="input-wrapper">
-        <input type="text" onChange={handleInputChange}/>
-      </div>
+    <div>
+      <TodoList/>
     </div>
   )
 }
